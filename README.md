@@ -25,9 +25,8 @@ In your GitHub repository, click on the Actions tab.
 Click New workflow -> set up a workflow yourself.
 Add the Workflow Code:
 
-Copy and paste the following workflow code into the editor:
 
-WRITE YOUR CODE HERE ----
+
 
 Commit the Workflow:
 Name the file (e.g., deploy-eks.yml) and click Start commit.
