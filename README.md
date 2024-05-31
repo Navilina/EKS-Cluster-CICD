@@ -1,4 +1,4 @@
-# EKS-Cluster-CICD
+# EKS-Cluster-CI/CD
 
 Process to create an EKS cluster using GitHub actions.
 
