@@ -7,17 +7,21 @@ Step 1: Set Up Authentication Secrets
 Generate AWS Access Key and Secret Access Key:
 
 Go to the AWS Management Console.
-Navigate to IAM (Identity and Access Management).
-Select "Users" and click on your user.
-Under the "Security credentials" tab, click "Create access key".
-Copy the "Access key ID" and "Secret access key" to a secure location.
-Add Secrets to GitHub:
+1.Navigate to IAM (Identity and Access Management).
+2.Select "Users" and click on your user.
+3.Under the "Security credentials" tab, click "Create access key".
+4.Copy the "Access key ID" and "Secret access key" to a secure location.
+5.Add Secrets to GitHub:
 
 In your GitHub repository, go to Settings -> Secrets and variables -> Actions.
+
 Click New repository secret.
+
 Add the following secrets:
 AWS_ACCESS_KEY_ID with the value of your AWS Access Key ID.
 AWS_SECRET_ACCESS_KEY with the value of your AWS Secret Access Key.
+
+
 Step 2: Create the GitHub Actions Workflow
 Navigate to the Actions tab:
 
